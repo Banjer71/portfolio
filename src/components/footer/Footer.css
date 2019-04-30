@@ -1,0 +1,10 @@
+.footer {
+    background: #F0BB49;
+    background-image: url(../img/sfondo-header.jpg);
+    width: 100%;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 150px;
+    padding: 25px;
+}
