@@ -1,0 +1,22 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.dv {
+    width: 45rem;
+    height: 400px;
+    background-color: #fff;
+}
+
+.dv h3 {
+    font-family: munito, sans-serif;
+}
+
+.dv p {
+    font-family: open sans, sans=serif;
+    padding: 2rem;
+    text-align: left;
+}

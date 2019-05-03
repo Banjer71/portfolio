@@ -4,8 +4,11 @@ import React from 'react'
 function Navbar() {
     return (
          <header className="App-header">
+             <div className="container">
                 <h1>Davide Naccarati</h1>
-                <p>Front-end Developer</p>
+                <p className='sub-title'>Front-end Developer</p>
+             </div>
+                
         </header>
     )
 }
