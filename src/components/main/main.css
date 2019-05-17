@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 .dv {
@@ -12,11 +12,56 @@
 }
 
 .dv h3 {
-    font-family: munito, sans-serif;
+    font-family: 'Nunito', sans-serif;
+    padding: .5rem;
+    text-align: center;
 }
 
 .dv p {
-    font-family: open sans, sans=serif;
     padding: 2rem;
     text-align: left;
+}
+
+.media {
+    margin: 0.5rem;
+    /* padding: 1em; */
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.media i {
+    font-size: 3rem;
+    color: #2494c1;
+    margin: 10px;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+
+@media (min-width: 768px) {
+
+    
+    .media {
+        justify-content: left;
+    }
+
+    .dv {
+        margin: 3rem;
+    }
+
+    .david h1 {
+        padding: .5rem;
+    }
+
+    .dv h3 {
+       text-align: left;
+    }
+
+    .dv p {
+        padding: .5rem;
+    }
+    
 }

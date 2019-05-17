@@ -1,0 +1,58 @@
+.card {
+    width: 22rem;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px #eee, 0 6px 6px #d5d5d5;
+    margin-top: 3rem;
+}
+
+.card h3 {
+    font-family: nunito,sans-serif;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card p {
+    font-family: open sans,sans-serif;
+    font-size: .9rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+
+
+.image-bg {
+    width: 22rem;
+    height: 10rem;
+    background-position: top;
+}
+
+.sv {
+    background-image: url(../../img/sergiovacca_ss.jpg);
+}
+
+.fl {
+    background-image: url(../../img/fl_ss_r.jpg);
+}
+
+.ba {
+    background-image: url(../../img/ba_ss_r.jpg);
+}
+
+.bjc {
+    background-image: url(../../img/bjc_ss.jpg);
+}
+
+@media (min-width: 768px) {
+    .card {
+        margin: 3rem;
+    }
+}
