@@ -1,6 +1,7 @@
 import React from 'react';
+import { HashRouter as Router } from 'react-router-dom'
 import Navbar from './components/navbar/Navbar'
-import Main from './components/main/Main'
+import MenuBar from './components/menubar/MenuBar'
 import Footer from './components/footer/Footer'
 
 
@@ -8,11 +9,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-        <Main />
-     <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <MenuBar />
+       
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

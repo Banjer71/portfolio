@@ -9,10 +9,11 @@ function Main() {
             <div className="projects">
                 <div className="dv">
                     <div className="david">
-                        <h1>Davide's Lab</h1>
+                        <h1>Portfolio</h1>
                     </div>
-                    <h3><em>Projects, Case Study and Practice </em></h3>
-                    <p>For those who were looking for a real portfolio, I am sorry to dissappoint you but you won't find anything like that. I still consider myself as an aspiring front end developer and despite the projects showed here are real projects I like to consider them as open products where I can practice and apply my studies in the web development.</p>
+                    <h3><em>Projects, Case Studies </em></h3>
+                    <p>In this section there are all the projects I have done so far. Some of them are projects I rebuilt after switching my career one year ago to become a Front-end developer.
+                    In the past years I built a few projects in wordpress using free templates and my goal is to rebuild them by using the new technologies I am learning and practicing at the moment.</p>
                     <ul className="media">
                         <li><a href="https://twitter.com/Banjerkid" target="_alt"><i className="fab fa-twitter-square"></i></a></li>
                         <li><a href="https://github.com/Banjer71" target="_alt"><i className="fab fa-github-square"></i></a></li>
