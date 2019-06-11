@@ -2,8 +2,7 @@ import React from 'react'
 import Card from '../cards/Card'
 
 function Main() {
-    // const text  = 'appassionate indipendent scholar of Naval Archeology';
-    //  const link = text.link("http://benitoantonelli.it");
+    
     return (
         <main>
             <div className="projects">

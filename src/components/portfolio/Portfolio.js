@@ -3,17 +3,11 @@ import Main from '../main/Main'
 
 function Portfolio() {
     return (
-
         <Main />
-        
     )
 }
 
-
-
-
-
-export default Portfolio 
+export default Portfolio
 
 
 

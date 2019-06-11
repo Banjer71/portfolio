@@ -1,3 +1,15 @@
+
+.home-background {
+    background-image: url(../../img/sfondo-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,.2);
+    padding: 80px 0;
+    height: 100vh;
+  }
+
 .home {
     margin-top: 50px;
     display: flex;

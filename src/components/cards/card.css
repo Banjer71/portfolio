@@ -49,6 +49,14 @@
     background-image: url(../../img/bjc_ss.jpg);
 }
 
+.react-notes {
+    background-image: url(../../img/reatcNote.jpg);
+}
+
+.js-notes {
+    background-image: url(../../img/javaScriptNotes.jpg);
+}
+
 @media (min-width: 768px) {
     .card {
         margin: 3rem;

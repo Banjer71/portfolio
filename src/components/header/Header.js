@@ -9,6 +9,7 @@ function Navbar() {
                 <div className="container">
                     <h1>Davide Naccarati</h1>
                     <p className='sub-title'>Front-end Developer</p>
+                    {/* <input type="checkbox" id="nav-toggle" class="nav-toggle"></input> */}
                 </div>
             </header>
             
