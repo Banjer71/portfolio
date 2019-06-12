@@ -1,19 +1,20 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route  } from 'react-router-dom'
 import MenuBar from './components/menubar/MenuBar'
 import Footer from './components/footer/Footer'
 import Home from './components/home/Home'
 import Portfolio from './components/portfolio/Portfolio'
 import SideProjects from './components/sideProjects/SideProjects'
-
+import ScrollToTop from './components/ScrollToTop'
 
 import './App.css';
+
 
 
 function App() {
   return (
     <Router>
-
+      <ScrollToTop>
       <div className="App">
         <MenuBar />
     
@@ -23,6 +24,7 @@ function App() {
        
         <Footer />
       </div>
+      </ScrollToTop>
     </Router>
   );
 }

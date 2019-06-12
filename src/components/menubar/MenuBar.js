@@ -1,8 +1,6 @@
 import React from 'react'
-import { HashRouter as Router, Route, Link } from 'react-router-dom'
-import Home from '../home/Home'
-import Portfolio from '../portfolio/Portfolio'
-import SideProjects from '../sideProjects/SideProjects'
+import { Link } from 'react-router-dom'
+
 
 
 function menuBar() {
