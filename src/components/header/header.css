@@ -4,11 +4,9 @@
 }
 
 .container {
-    max-width: 1024px;
-    margin: 0 auto;
     left: 50%;
     top: 35%;
-    max-width: 1024px;
+    min-width: 375px;
     margin: 0 auto;
     position: absolute;
     transform: translate(-50%);

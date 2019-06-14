@@ -4,6 +4,7 @@ import Card from '../cards/Card'
 function sideProjetcs() {
     return (
         <>
+        <div className='side-projects'>
         <h2 className='sideProject-h2'>Side projects</h2>
         <div className="projects">
         
@@ -21,7 +22,7 @@ function sideProjetcs() {
             />
                     
                 </div>
-            
+                </div> 
         </>
 
     );

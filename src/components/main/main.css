@@ -2,13 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin-top: 8rem; */
+    margin-top: 2rem;
 }
 
 .dv {
     width: 45rem;
     height: 400px;
     background-color: #fff;
+    margin-top: 7rem;
 }
 
 .dv h3 {
@@ -42,6 +43,9 @@
 
 @media (min-width: 768px) {
 
+    .projects {
+        margin-top: 8rem;
+    }
     
     .media {
         justify-content: left;
