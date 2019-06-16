@@ -8,6 +8,7 @@ function home() {
             <div className='home-background'>
                 <Header />
             </div>
+            <div className='content'>
             <div className='home'>
                 <div className='davide-home'>
                     <div className="david">
@@ -34,6 +35,7 @@ function home() {
                     </ul>
                 </div>
 
+            </div>
             </div>
         </>
     )
