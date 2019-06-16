@@ -43,8 +43,9 @@ h3 {
 }
 
 p {
-    padding: .5rem;
-    margin-bottom: 25px;
+    padding: 1rem;
+    /* margin-bottom: 25px; */
+    text-align: left;
 } 
 
 .card-tech {
@@ -95,12 +96,13 @@ p {
 
     .davide-home {
         width: 45rem;
-       
     }
 
     .davide-home h3 {
        text-align: left;
     }
+
+   
 
     .media-home {
         justify-content: left;

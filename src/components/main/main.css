@@ -4,7 +4,7 @@
     justify-content: center;
     margin-top: 2rem;
 }
-
+    
 .dv {
     width: 45rem;
     height: 400px;
@@ -19,8 +19,9 @@
 }
 
 .dv p {
-    padding: 2rem;
+    padding: 1rem;
     text-align: left;
+    line-height: 20px;
 }
 
 .media {
