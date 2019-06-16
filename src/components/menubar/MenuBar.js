@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 
 class menuBar extends Component { 
     constructor(props) {
@@ -7,29 +7,40 @@ class menuBar extends Component {
         this.state = {isMenuOpen: false};
     }
    
-    toggleMenu() {
-        this.setState({isMenuOpen: !this.state.isMenuOpen});
+    toggleMenu = () => {
+        this.setState({isMenuOpen: !this.state.isMenuOpen})
     }
+
+    toggleCloseMenu = () => {
+        this.setState({isMenuOpen: false})
+    }
+
+    
     render() {
-        return (
+        console.warn('state', this.state);
+        const {isMenuOpen} = this.state;
         
-            <div className='menubar'>
-                <input type='checkbox' className='toggle' onClick={() => this.toggleMenu()} />
+        return (
+            <>
             
-                <div className='hamburger'><div></div></div>
+            <div className='menubar'>
+           
+            <div className='hamburger' onClick={this.toggleMenu}><div></div></div>
+                
+                
               
-                {this.state.isMenuOpen && <ul className="menu" >
+                {isMenuOpen && <ul className="menu" onClick={this.toggleCloseMenu}>
                     
                     <li><Link to='../'>Home</Link></li>
                     <li><Link to='../portfolio'> Portfolio</Link></li>
                     <li><Link to='../sideprojects'>Side-Projects</Link></li>
                 </ul>}
             </div>
-        
+        </>
     );
     }
     
 }
 
 
-export default menuBar
+export default withRouter(menuBar)
