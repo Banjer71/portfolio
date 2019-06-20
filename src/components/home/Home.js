@@ -26,12 +26,12 @@ function home() {
                 <div className="card">
                     <h3 className='card-tech'>Technlogies</h3>
                     <ul className='tech'>
-                        <li><i class="fab fa-html5"></i></li>
-                        <li><i class="fab fa-css3-alt"></i></li>
-                        <li><i class="fab fa-js-square"></i></li>
-                        <li><i class="fab fa-react"></i></li>
-                        <li><i class="fab fa-node-js"></i></li>
-                        <li><i class="fas fa-database"></i></li>
+                        <li><i className="fab fa-html5"></i></li>
+                        <li><i className="fab fa-css3-alt"></i></li>
+                        <li><i className="fab fa-js-square"></i></li>
+                        <li><i className="fab fa-react"></i></li>
+                        <li><i className="fab fa-node-js"></i></li>
+                        <li><i className="fas fa-database"></i></li>
                     </ul>
                 </div>
 
