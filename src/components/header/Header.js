@@ -1,5 +1,5 @@
 import React from 'react'
-// import MenuBar from '../menubar/MenuBar'
+import SocialMedia from '../socialMedia/SocialMedia';
 
 
 function Navbar() {
@@ -9,7 +9,11 @@ function Navbar() {
                 <div className="container">
                     <h1>Davide Naccarati</h1>
                     <p className='sub-title'>Front-end Developer</p>
-                    {/* <input type="checkbox" id="nav-toggle" class="nav-toggle"></input> */}
+                    <SocialMedia 
+                        twitter='https://twitter.com/Banjerkid'
+                        github='https://github.com/Banjer71'
+                        linkedin='https://www.linkedin.com/in/davide-naccarati-877b9821/'
+                        /> 
                 </div>
             </header>
             

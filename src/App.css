@@ -9,6 +9,7 @@
 @import url('./components/menubar/menubar.css');
 @import url('./components/home/home.css');
 @import url('./components/sideProjects/sideProjects.css');
+@import url('./components/socialMedia/socialMedia.css');
 
 * {
   margin: 0;

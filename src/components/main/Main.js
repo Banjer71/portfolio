@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../cards/Card'
+import SocialMedia from '../socialMedia/SocialMedia'
 
 function Main() {
     
@@ -13,11 +14,11 @@ function Main() {
                     <h3><em>Projects, Case Studies </em></h3>
                     <p>In this section there are all the projects I have done so far. Some of them are projects I rebuilt after switching my career one year ago to become a Front-end developer.
                     In the past years I built a few projects in wordpress using free templates and my goal is to rebuild them by using the new technologies I am learning and practicing at the moment.</p>
-                    <ul className="media">
-                        <li><a href="https://twitter.com/Banjerkid" target="_alt"><i className="fab fa-twitter-square"></i></a></li>
-                        <li><a href="https://github.com/Banjer71" target="_alt"><i className="fab fa-github-square"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/davide-naccarati-877b9821/" target="_alt"><i className="fab fa-linkedin"></i></a></li>
-                    </ul>
+                    <SocialMedia 
+                        twitter='https://twitter.com/Banjerkid'
+                        github='https://github.com/Banjer71'
+                        linkedin='https://www.linkedin.com/in/davide-naccarati-877b9821/'
+                        />
                 </div>
 
                 <Card className='image-bg sv'
