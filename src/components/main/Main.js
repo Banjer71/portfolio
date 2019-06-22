@@ -12,8 +12,7 @@ function Main() {
                         <h1>Portfolio</h1>
                     </div>
                     <h3><em>Projects, Case Studies </em></h3>
-                    <p>In this section there are all the projects I have done so far. Some of them are projects I rebuilt after switching my career one year ago to become a Front-end developer.
-                    In the past years I built a few projects in wordpress using free templates and my goal is to rebuild them by using the new technologies I am learning and practicing at the moment.</p>
+                    <p>Here are some of the projects I built as a freelance mainly for private customers into music and fashion and costume design environment.</p>
                     <SocialMedia 
                         twitter='https://twitter.com/Banjerkid'
                         github='https://github.com/Banjer71'

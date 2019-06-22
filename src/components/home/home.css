@@ -38,8 +38,8 @@ h3 {
     font-family: 'Nunito', sans-serif;
     padding: .5rem;
     text-align: center;
-    font-style: italic;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 p {
@@ -102,9 +102,14 @@ p {
 
     .davide-home h3 {
        text-align: left;
+       font-style: italic;
+       margin-top: 1rem;
     }
 
-   
+   p {
+       padding: .5rem;
+       font-size:1.1rem;
+   }
 
     .media-home {
         justify-content: left;

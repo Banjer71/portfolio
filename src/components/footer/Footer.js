@@ -5,7 +5,7 @@ function Footer() {
         <footer>
             <div className="foot">
                 <div className="copy">
-                    <p className="footer-text">©2017-2019 - Davide&nbsp;Naccarati</p>
+                    <p className="footer-text">©2018-2019 - Davide&nbsp;Naccarati</p>
                 </div>
             </div>
         </footer>

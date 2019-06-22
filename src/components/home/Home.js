@@ -16,8 +16,10 @@ function home() {
                         <h1>Who I am</h1>
                     </div>
                     <h3>Passionate and motivated front-end developer with one year of experience as a freelance.</h3>
-                    <p>I love creating websites and web-applications. I have been self-taught for about a year and recently I decided to attend a coding bootcamp focus on JavaScript and ReactJs.</p>
-                    <p>At the moment I am working as freelance rebuilding some of the works I made last years. I would like to put in practice what I learnt during the bootcamp.</p>
+                    <p>I love creating websites and web-applications. I have always had a strong passion for the web-development and I cultivated it as much as possible as a side-project during my career as IT Technician.</p>
+                    <p>In July 2018 I decided to take this path and to study full-time through different online resources and I completed a coding bootcamp on JavaScript and Reactjs.
+                                </p>
+                    
                     <SocialMedia 
                         twitter='https://twitter.com/Banjerkid'
                         github='https://github.com/Banjer71'
