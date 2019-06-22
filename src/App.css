@@ -18,8 +18,8 @@
   list-style: none;
 }
 
-.App h1, p {
-  text-align: left;
+.App h1 {
+  text-align: center;
 }
 
 .App-link {
