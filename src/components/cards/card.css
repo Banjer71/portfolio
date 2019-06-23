@@ -58,6 +58,17 @@
     background-image: url(../../img/javaScriptNotes.jpg);
 }
 
+.kodflix {
+    background-image: url(https://fontmeme.com/permalink/190623/850a74caf91dede3caa509e0dbf8d6b5.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 200px;
+
+   
+}
+
 @media (min-width: 768px) {
     .card {
         margin: 3rem;

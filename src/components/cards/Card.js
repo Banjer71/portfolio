@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 function Card(props) {
     return (
         <div className="card">
@@ -9,6 +11,15 @@ function Card(props) {
             </h3>
             <p>{props.text}</p>
             <p>{props.text2}</p>
+            <ul className='tech1'>
+                        <li>{props.html5}</li>
+                        <li>{props.css3}</li>
+                        <li>{props.javascript}</li>
+                        <li>{props.react}</li>
+                        <li>{props.nodejs}</li>
+                        <li>{props.mongodb}</li>
+                        <li>{props.wordpress}</li>
+                    </ul>
         </div>
     )
 }
