@@ -11,14 +11,14 @@ function sideProjetcs() {
                     <Card className='image-bg react-notes'
                         link="https://banjer71.github.io/my-react-notes/"
                         name='React Notes'
-                        text='This is the second projects I built in March 2018. I was still working full time as IT Technician and I made it in a week after work.'
-                        text2='It was fun to play with the CSS clip-path rules and Flexbox. It is a very simple website and not being a designer I tried to grab some ideas from the blue note cover albums.'
+                        text='Tests, practices, challenges using React'
+                        text2='project under construction'
                     />
                     <Card className='image-bg js-notes'
                         link="https://banjer71.github.io/My-JavaScript-Notes/"
                         name='JavaScript Notes'
-                        text='This is the second projects I built in March 2018. I was still working full time as IT Technician and I made it in a week after work.'
-                        text2='It was fun to play with the CSS clip-path rules and Flexbox. It is a very simple website and not being a designer I tried to grab some ideas from the blue note cover albums.'
+                        text='Tests, practices, challenges using only vanilla JavaScript'
+                        text2='project under construction'
                     />
 
                 </div>

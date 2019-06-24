@@ -9,3 +9,7 @@
 .side-projects .projects {
     margin-top: 3rem;
 }
+
+.side-projects p {
+    text-align: center;
+}
