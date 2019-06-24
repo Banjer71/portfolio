@@ -50,6 +50,16 @@ function Main(props) {
                     css3={<i className="fab fa-css3-alt"></i>}
                     />
 
+                    <Card className='image-bg weather-app'
+                    link='https://weather-app-banjer71.netlify.com/'
+                    name='Weather app'
+                    text='Weather web-application in JavaScript, only front end side.'
+                    text2={`This project is one of my first challenges pulling data from an API. I didn't like the icons provided from the API so I found another set on line, unfortunatelly there were not so many available and they don't always match the right weather condition.`}
+                    html5={<i className="fab fa-html5"></i>}
+                    css3={<i className="fab fa-css3-alt"></i>}
+                    javascript={<i className="fab fa-js-square"></i>}
+                />
+
 
                 <Card className='image-bg ba'
                     link='https://banjer71.github.io/anto/'
@@ -71,15 +81,7 @@ function Main(props) {
                     wordpress={<i className="fab fa-wordpress"></i>}
                 />
 
-                <Card className='image-bg weather-app'
-                    link='https://weather-app-banjer71.netlify.com/'
-                    name='Weather app'
-                    text='Weather web-application in JavaScript, only front end side.'
-                    text2={`This project is one of my first challenges pulling data from an API. I didn't like the icons provided from the API so I found another set on line, unfortunatelly there were not so many available and they don't always match the right weather condition.`}
-                    html5={<i className="fab fa-html5"></i>}
-                    css3={<i className="fab fa-css3-alt"></i>}
-                    javascript={<i className="fab fa-js-square"></i>}
-                />
+                
                 
                
 
