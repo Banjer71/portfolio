@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb3facaccfb836d80fef4e2b3107d8b2",
+    "revision": "63ed7ac49bac2fc8eefdede16b1dbeaa",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "075a8bb491557ecdf346",
-    "url": "/portfolio/static/css/main.19134c03.chunk.css"
+    "revision": "cf33f3164c7dd178359e",
+    "url": "/portfolio/static/css/main.e73ebe4f.chunk.css"
   },
   {
     "revision": "0fe5209b3246c6e691d0",
     "url": "/portfolio/static/js/2.a0637e89.chunk.js"
   },
   {
-    "revision": "075a8bb491557ecdf346",
-    "url": "/portfolio/static/js/main.643da023.chunk.js"
+    "revision": "cf33f3164c7dd178359e",
+    "url": "/portfolio/static/js/main.a33927fb.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -46,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8cf58cc368cea81f5b7ab2fc25e5b43d",
     "url": "/portfolio/static/media/sfondo-header.8cf58cc3.jpg"
+  },
+  {
+    "revision": "58327d10455fc4764d431825351f81f7",
+    "url": "/portfolio/static/media/weather_app2.58327d10.jpg"
   }
 ]);
