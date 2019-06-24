@@ -65,8 +65,10 @@
     background-repeat: no-repeat;
     margin: 0 auto;
     width: 200px;
+}
 
-   
+.weather-app {
+    background-image: url(../../img/weather_app2.jpg)
 }
 
 @media (min-width: 768px) {
