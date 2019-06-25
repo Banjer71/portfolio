@@ -24,6 +24,7 @@ function home() {
                         twitter='https://twitter.com/Banjerkid'
                         github='https://github.com/Banjer71'
                         linkedin='https://www.linkedin.com/in/davide-naccarati-877b9821/'
+                        mail='mailto:davide.naccarati@gmail.com'
                         />
                 </div>
                 <div className="card">
