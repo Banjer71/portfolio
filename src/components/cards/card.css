@@ -74,5 +74,11 @@
 @media (min-width: 768px) {
     .card {
         margin: 3rem;
+      
     }
+
+    .card:hover {
+         transform: translateY(-5px);
+    }
+    
 }
