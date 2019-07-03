@@ -28,7 +28,7 @@ function home() {
                         />
                 </div>
                 <div className="card">
-                    <h3 className='card-tech'>Technlogies</h3>
+                    <h3 className='card-tech'>Technologies</h3>
                     <ul className='tech'>
                         <li><i className="fab fa-html5"></i></li>
                         <li><i className="fab fa-css3-alt"></i></li>
