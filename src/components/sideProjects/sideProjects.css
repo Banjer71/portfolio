@@ -1,4 +1,7 @@
 
+.side-projects {
+    min-height: 100vh;
+}
 .sideProject-h2 {
     text-align: center;
     margin-top: 8rem;
