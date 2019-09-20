@@ -72,6 +72,24 @@
     background-image: url(../../img/weather_app2.jpg)
 }
 
+.huddle {
+    background-image: url(https://api.frontendmentor.io/wp-content/uploads/2018/10/desktop-preview-1-768x563.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fylo {
+    background-image: url(https://api.frontendmentor.io/wp-content/uploads/2018/09/desktop-preview-768x563.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.html-css-notes {
+    background-image: url(https://res.cloudinary.com/dz209s6jk/image/upload/v1562939544/Challenges/bfsviv4bu5yxoxxhwbeq.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 @media (min-width: 768px) {
     .card {
         margin: 3rem;

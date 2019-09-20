@@ -21,7 +21,7 @@ const sideProjetcs = () => {
 					text="Tests, practices, challenges using only vanilla JavaScript"
 					text2="project under construction"
 				/>
-				<Link to="./Htmlcss">
+				<Link to="./Htmlcss" style={{ textDecoration: 'none' }}>
 					<Card
 						className="image-bg html-css-notes"
 						link=""
