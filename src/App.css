@@ -11,6 +11,7 @@
 @import url('./components/sideProjects/sideProjects.css');
 @import url('./components/socialMedia/socialMedia.css');
 @import url('./components/technologies/technologies.css');
+@import url('./components/htmlcss/htmlcss.css');
 
 * {
   margin: 0;

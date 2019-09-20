@@ -1,18 +1,24 @@
-
 .side-projects {
-    min-height: 100vh;
+	min-height: 100vh;
 }
+
 .sideProject-h2 {
-    text-align: center;
-    margin-top: 8rem;
-    font-family: 'Anton';
-    font-size: 2.5rem;
+	text-align: center;
+	margin-top: 8rem;
+	font-family: 'Anton';
+	font-size: 2.5rem;
 }
 
 .side-projects .projects {
-    margin-top: 3rem;
+	margin-top: 3rem;
 }
 
 .side-projects p {
-    text-align: center;
+	text-align: center;
 }
+
+
+
+
+
+
