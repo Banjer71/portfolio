@@ -67,7 +67,7 @@ function Main(props) {
 					javascript={<i className="fab fa-js-square" />}
 				/>
 
-				<Card
+				{/* <Card
 					className="image-bg ba"
 					link="https://banjer71.github.io/anto/"
 					name="Benito Antonelli"
@@ -81,19 +81,9 @@ function Main(props) {
 					text2="I used Bootstrap since I wanted to learn its basic functionality. Unfortunatelly this projects is still on my GitHub page waiting for more pictures from the customer."
 					html5={<i className="fab fa-html5" />}
 					css3={<i className="fab fa-css3-alt" />}
-				/>
+				/> */}
 
-				<Card
-					className="image-bg bjc"
-					link="http://www.berardijazzconnection.com/"
-					name="Berardi Jazz Connection"
-					text="For this project I used a Wordpress template. It gave me the opportunity to learn and understand how PHP works."
-					text2="This project is from a few years ago. Recently I have been requested to restyle it and for the new version I am going to use HTML/CSS and JavaScript."
-					html5={<i className="fab fa-html5" />}
-					css3={<i className="fab fa-css3-alt" />}
-					javascript={<i className="fab fa-js-square" />}
-					wordpress={<i className="fab fa-wordpress" />}
-				/>
+				
 			</div>
 		</main>
 	);
