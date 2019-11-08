@@ -66,24 +66,6 @@ function Main(props) {
 					css3={<i className="fab fa-css3-alt" />}
 					javascript={<i className="fab fa-js-square" />}
 				/>
-
-				{/* <Card
-					className="image-bg ba"
-					link="https://banjer71.github.io/anto/"
-					name="Benito Antonelli"
-					text={[
-						'For this projects, I wanted to restyle an old website I made with Wordpress for a',
-						<a href="http://benitoantonelli.it" target="_blank" rel="noopener noreferrer">
-							{' '}
-							passionate indipendent scholar of Naval Archeology.
-						</a>
-					]}
-					text2="I used Bootstrap since I wanted to learn its basic functionality. Unfortunatelly this projects is still on my GitHub page waiting for more pictures from the customer."
-					html5={<i className="fab fa-html5" />}
-					css3={<i className="fab fa-css3-alt" />}
-				/> */}
-
-				
 			</div>
 		</main>
 	);
