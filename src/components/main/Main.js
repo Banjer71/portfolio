@@ -25,6 +25,17 @@ function Main(props) {
 					/>
 				</div>
 
+				<Card 
+					className='image-bg lyrics_bites'
+					link='https://lyrics-bites-refactored.now.sh/'
+					name='Lyrics Bites'
+					text='Learn you favortite songs'
+					text2='This project is build in React. It is meant to be a larger project including also a backend in the future where the user can chunk a song lyrics in small verse that every day they will be sent in his email box'
+					html5={<i className="fab fa-html5" />}
+					css3={<i className="fab fa-css3-alt" />}
+					react={<i className="fab fa-react" />}
+				/>
+
 				<Card
 					className="image-bg kodflix"
 					link="https://kodflix-davide.herokuapp.com/"
@@ -66,6 +77,8 @@ function Main(props) {
 					css3={<i className="fab fa-css3-alt" />}
 					javascript={<i className="fab fa-js-square" />}
 				/>
+
+				
 			</div>
 		</main>
 	);

@@ -89,6 +89,14 @@
 	background-position: center;
 }
 
+.lyrics_bites {
+	background-image: url(../../img/lyrics_bites2.JPG);
+	background-size: cover;
+	background-position: top;
+	width: 95%;
+	margin: 0 auto;
+}
+
 @media (min-width: 768px) {
 	.card {
 		margin: 3rem;
