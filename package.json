@@ -5,6 +5,7 @@
   "homepage": "https://banjer71.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "helmet": "^3.22.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",

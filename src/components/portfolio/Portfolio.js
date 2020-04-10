@@ -1,10 +1,8 @@
-import React from 'react'
-import Main from '../main/Main'
+import React from "react";
+import Main from "../main/Main";
 
 function Portfolio() {
-    return (
-        <Main />
-    )
+  return <Main />;
 }
 
-export default Portfolio
+export default Portfolio;

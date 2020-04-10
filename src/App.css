@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-@import url('https://fonts.googleapis.com/css?family=Anton:400');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-@import url('./components/header/header.css');
-@import url('./components/main/main.css');
-@import url('./components/cards/card.css');
-@import url('./components/footer/footer.css');
-@import url('./components/menubar/menubar.css');
-@import url('./components/home/home.css');
-@import url('./components/sideProjects/sideProjects.css');
-@import url('./components/socialMedia/socialMedia.css');
-@import url('./components/technologies/technologies.css');
-@import url('./components/htmlcss/htmlcss.css');
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Anton:400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url("./components/header/header.css");
+@import url("./components/main/main.css");
+@import url("./components/cards/card.css");
+@import url("./components/footer/footer.css");
+@import url("./components/menubar/menubar.css");
+@import url("./components/home/home.css");
+@import url("./components/sideProjects/sideProjects.css");
+@import url("./components/socialMedia/socialMedia.css");
+@import url("./components/technologies/technologies.css");
+@import url("./components/htmlcss/htmlcss.css");
 
 * {
   margin: 0;
@@ -29,9 +29,9 @@
 }
 
 .david h1 {
-    font-family: 'Anton', sans-serif;
-    font-size: 3rem;
-    padding: 0.5rem;
+  font-family: "Anton", sans-serif;
+  font-size: 3rem;
+  padding: 0.5rem;
 }
 
 p {
@@ -39,8 +39,8 @@ p {
 }
 
 @media (min-width: 768px) {
-    
-  .App h1, p {
+  .App h1,
+  p {
     text-align: left;
   }
 
@@ -49,7 +49,7 @@ p {
   }
 
   .sub-title {
-    font-family: open,sans-serif;
+    font-family: open, sans-serif;
     font-size: 1.8rem;
     margin-top: 15px;
   }
