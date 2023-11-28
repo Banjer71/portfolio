@@ -22,7 +22,7 @@ function App(props) {
           content="Davide Naccarati website"
           data-react-helmet="true"
         />
-        <link rel="canonical" href="http://davidenaccarati.com" />
+        <link rel="canonical" href="https://davidenaccarati.com" />
       </Helmet>
       <ScrollToTop>
         <div className="App">
